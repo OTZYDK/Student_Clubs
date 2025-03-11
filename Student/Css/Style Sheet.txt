@@ -1,7 +1,7 @@
 /*
-Student Name: Gabe Kersch, Amatul
-File Name:
-Date:
+Student Name: Amatul Aasiyah, David Kersch, Bianca Briones
+File Name: Style Sheet.txt
+Date: 03/11/2025
 */
 
 /* CSS Reset */
