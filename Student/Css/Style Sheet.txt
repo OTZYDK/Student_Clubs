@@ -11,9 +11,8 @@ body, header, nav, main, footer, img, h1, h3{
   border: 0px;
 }
 
-/* Style rule for body and image */
-body{ background-color: #e3eaf8; }
-img{
-  max-width: 100%;
-  display: block;
+/* Make images responsive */
+img {
+    max-width: 100%;
+    display: block;
 }
