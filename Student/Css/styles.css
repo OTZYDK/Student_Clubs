@@ -11,18 +11,22 @@ body, header, nav, main, footer, img, h1, h3{
   border: 0px;
 }
 
+/* Styles rules for navigation area */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
 /* Make images responsive */
 img {
     max-width: 100%;
     display: block;
 }
 
-/* Styles for navigation */
-nav ul {
-    list-style: none;
-}
-
-/* Style for headers */
+/* Style rules for headers */
 h1, h2, h3 {
     font-family: 'Arial', sans-serif;
 }
