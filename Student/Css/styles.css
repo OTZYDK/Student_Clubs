@@ -6,61 +6,125 @@ Date: 03/11/2025
 
 /* CSS Reset */
 body, header, nav, main, footer, img, h1, h3{
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-/* Styles rules for navigation area */
+/* Style rules for body and images */
+body{
+	background-color: #ffffff;	
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rules for header area */
+
+header {
+    background-color: #ffffff;
+    color: #003385;
+    padding: 10px;
+}
+
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+	text-align: center;
+	padding: 2%;
+}
+
+h3 {
+	font-family: 'Arial', sans-serif;
+}
+
+/* Style rules for navigation area */
+nav {
+	background-color: #003385;
+	padding: 10px;
+}
+
 nav ul {
     list-style-type: none;
+	text-align: center;
 }
 
-nav ul li a {
-  text-decoration: none;
+nav li a {
+	text-decoration: none;
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	border-top: 0.5px;
+	color: #ffffff;
+	padding:0.5%;
 }
 
-/* Make images responsive */
-img {
-    max-width: 100%;
-    display: block;
+/* Style rules for main content */
+main{
+	padding: 2%;
+} 
+
+main p{
+	font-size: 1.25em;
+} 
+
+main h3{
+	padding: 2%;
+} 
+
+.link{
+	color: #0049bf;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+} 
+
+#contact{
+	text-align: center;
 }
 
-/* Style rules for headers */
-h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
+.tel-link{
+	background-color: #003385;
+	color: #ffffff;
+	padding: 1.25%; 
+	width: 80%;
+	margin-top: 0; 
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2.5%;
+} 
+
+.tel-link a {
+	text-decoration: none;
+	font-weight: bold;
 }
 
-/* Remove underlines from links */
-a {
-    text-decoration: none;
-}
 
-/* High contrast for readability */
-body {
-    background-color: #f4f4f4;
-    color: #333;
-}
+/* Style rules for footer content */
 
-/* Styles for header, nav, main, and footer */
-header {
-    background-color: #555;
-    color: #fff;
-    padding: 10px;
-}
-
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
-
-main {
-    padding: 20px;
-}
 
 footer {
     background-color: #555;
     color: #fff;
     padding: 10px;
 }
+
+footer{
+	
+	text-align: center;
+	font-size: 0.85em;
+	background-color: #e60202;
+	color: #ffffff; 
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 0%;
+	padding-right: 0%;
+} 
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+} 
